@@ -124,7 +124,7 @@ const Share = () => {
           size="large"
           onClick={() => message.success("청첩장 링크가 복사되었습니다.")}
         >
-          링크로 공유하기
+          링크로 공유하기t
         </LinkShareButton>
       </CopyToClipboard>
     </Wrapper>
