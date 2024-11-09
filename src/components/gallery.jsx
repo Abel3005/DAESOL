@@ -3,9 +3,9 @@ import ImageGallery from "react-image-gallery";
 import { Divider } from "antd";
 import styled from "styled-components";
 
-import GalleryPhoto1 from "../assets/Gallery_Photo_1.webp";
-import GalleryPhoto2 from "../assets/Gallery_Photo_2.webp";
-import GalleryPhoto3 from "../assets/Gallery_Photo_3.webp";
+import GalleryPhoto1 from "../assets/SOR1.jpg";
+import GalleryPhoto2 from "../assets/SOR2.jpg";
+import GalleryPhoto3 from "../assets/SOR3.jpg";
 import GalleryPhoto4 from "../assets/Gallery_Photo_4.webp";
 import GalleryPhoto5 from "../assets/Gallery_Photo_5.webp";
 import GalleryPhoto6 from "../assets/Gallery_Photo_6.webp";
@@ -56,7 +56,7 @@ const Gallery = () => {
   return (
     <Wrapper>
       <Divider style={{ marginTop: 0, marginBottom: 32 }} plain>
-        <Title>우리의 아름다운 순간</Title>
+        <Title>Happy</Title>
       </Divider>
       <ImageGallery
         showPlayButton={false}
