@@ -27,9 +27,7 @@ const TitleWrapper = styled.div`
   -o-animation: fadein 3s; /* Opera */
 `;
 
-const StyledVideo = styled.video`
-  width: 100%;
-`;
+const StyledVideo = styled.video;
 const VideoPlayer = ({ src }) => {
   return (
     <StyledVideo controls>
