@@ -48,15 +48,12 @@ const IndexPage = () => {
   return (
     <Wrapper>
       <audio autoPlay loop>
-        <source src={Song} />
+        <source src={Song} type="audio/mp3" />
       </audio>
       <Title />
       <Greeting />
       <Gallery />
-      <Location />
       <Quote />
-      <CongratulatoryMoney />
-      <Share />
       <Footer
         style={{
           background: "#D7CCC8",
@@ -65,7 +62,6 @@ const IndexPage = () => {
           textAlign: "center",
         }}
       >
-        Copyright © 2022 Shin Jooyoung
       </Footer>
     </Wrapper>
   );
