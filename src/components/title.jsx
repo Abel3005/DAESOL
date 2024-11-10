@@ -6,7 +6,7 @@ import {
   GROOM_NAME,
   BRIDE_NAME,
 } from "../../config.js";
-import BackgroundVideo from "../assets/BackgroundVideo.mp4";
+import BackgroundVideo from "../assets/love.mp4";
 import GroovePaper from "../assets/GroovePaper.png";
 
 const Layout = styled.div`
@@ -30,6 +30,14 @@ const TitleWrapper = styled.div`
 const VideoBackground = styled.video`
   width: 100%;
 `;
+const VideoPlayer = ({ src }) => {
+  return (
+    <StyledVideo controls>
+      <source src={src} type="video/mp4" />
+      Your browser does not support the video tag.
+    </StyledVideo>
+  );
+};
 
 const WeddingInvitation = styled.p`
   font-size: 0.825rem;
@@ -63,9 +71,7 @@ const Title = () => {
           {WEDDING_LOCATION}
         </Schedule>
       </TitleWrapper>
-      <VideoBackground playsInline={true}>
-        <source src={BackgroundVideo} type="video/mp4" />
-      </VideoBackground>
+      <VideoPlayer src={BackgroundVideo} />
     </Layout>
   );
 };
