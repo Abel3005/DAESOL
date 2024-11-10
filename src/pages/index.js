@@ -53,6 +53,7 @@ const IndexPage = () => {
       <Title />
       <Greeting />
       <Gallery />
+      <Location />
       <Quote />
       <Footer
         style={{

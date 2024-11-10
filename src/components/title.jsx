@@ -6,7 +6,7 @@ import {
   GROOM_NAME,
   BRIDE_NAME,
 } from "../../config.js";
-import BackgroundVideo from "../assets/love.mp4";
+import BackgroundVideo from "../assets/love_full.mp4";
 import GroovePaper from "../assets/GroovePaper.png";
 
 const Layout = styled.div`
