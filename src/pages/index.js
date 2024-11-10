@@ -47,7 +47,7 @@ const IndexPage = () => {
   });
   return (
     <Wrapper>
-      <audio autoPlay loop>
+      <audio autoPlay loop controls>
         <source src={Song1} type="audio/mp3" />
       </audio>
       <Title />
