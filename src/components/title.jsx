@@ -27,10 +27,25 @@ const TitleWrapper = styled.div`
   -o-animation: fadein 3s; /* Opera */
 `;
 
-const StyledVideo = styled.video;
+const StyledVideo = styled.video`
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+`;
 const VideoPlayer = ({ src }) => {
+  const [shouldAutoplay, setShouldAutoplay] = useState(false);
+
+  useEffect(() => {
+    const hasPlayed = localStorage.getItem('videoPlayed');
+    if (!hasPlayed) {
+      setShouldAutoplay(true);
+      localStorage.setItem('videoPlayed', true);
+    }
+  }, []);
+
   return (
-    <StyledVideo controls>
+    <StyledVideo controls autoPlay={shouldAutoplay}>
       <source src={src} type="video/mp4" />
       Your browser does not support the video tag.
     </StyledVideo>
