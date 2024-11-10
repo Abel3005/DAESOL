@@ -13,7 +13,6 @@ import GalleryPhoto7 from "../assets/SOR7.jpg";
 import GalleryPhoto8 from "../assets/SOR8.jpg";
 import GalleryPhoto9 from "../assets/SOR9.jpg";
 import GalleryPhoto10 from "../assets/SOR10.jpg";
-import GalleryPhoto11 from "../assets/SOR11.jpg";
 
 
 const Wrapper = styled.div`
