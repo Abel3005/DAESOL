@@ -63,7 +63,7 @@ const Title = () => {
           {WEDDING_LOCATION}
         </Schedule>
       </TitleWrapper>
-      <VideoBackground autoPlay playsInline={true}>
+      <VideoBackground autoPlay loop muted playsInline={true}>
         <source src={BackgroundVideo} type="video/mp4" />
       </VideoBackground>
     </Layout>
