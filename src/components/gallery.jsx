@@ -72,10 +72,6 @@ const images = [
     original: GalleryPhoto10,
     thumbnail: GalleryPhoto10,
   },
-  {
-    original: GalleryPhoto11,
-    thumbnail: GalleryPhoto11,
-  },
 ];
 
 const Gallery = () => {
