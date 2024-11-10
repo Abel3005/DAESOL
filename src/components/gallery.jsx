@@ -6,9 +6,15 @@ import styled from "styled-components";
 import GalleryPhoto1 from "../assets/SOR1.jpg";
 import GalleryPhoto2 from "../assets/SOR2.jpg";
 import GalleryPhoto3 from "../assets/SOR3.jpg";
-import GalleryPhoto4 from "../assets/Gallery_Photo_4.webp";
-import GalleryPhoto5 from "../assets/Gallery_Photo_5.webp";
-import GalleryPhoto6 from "../assets/Gallery_Photo_6.webp";
+import GalleryPhoto4 from "../assets/SOR4.jpg";
+import GalleryPhoto5 from "../assets/SOR5.jpg";
+import GalleryPhoto6 from "../assets/SOR6.jpg";
+import GalleryPhoto7 from "../assets/SOR7.jpg";
+import GalleryPhoto8 from "../assets/SOR8.jpg";
+import GalleryPhoto9 from "../assets/SOR9.jpg";
+import GalleryPhoto10 from "../assets/SOR10.jpg";
+import GalleryPhoto11 from "../assets/SOR11.jpg";
+
 
 const Wrapper = styled.div`
   padding-top: 42px;
@@ -49,6 +55,26 @@ const images = [
   {
     original: GalleryPhoto6,
     thumbnail: GalleryPhoto6,
+  },
+  {
+    original: GalleryPhoto7,
+    thumbnail: GalleryPhoto7,
+  },
+  {
+    original: GalleryPhoto8,
+    thumbnail: GalleryPhoto8,
+  },
+  {
+    original: GalleryPhoto9,
+    thumbnail: GalleryPhoto9,
+  },
+  {
+    original: GalleryPhoto10,
+    thumbnail: GalleryPhoto10,
+  },
+  {
+    original: GalleryPhoto11,
+    thumbnail: GalleryPhoto11,
   },
 ];
 
