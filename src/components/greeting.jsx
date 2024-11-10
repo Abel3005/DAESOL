@@ -55,23 +55,35 @@ const Greeting = () => {
   return (
     <Wrapper>
       <Divider style={{ marginTop: 32, marginBottom: 32 }} plain>
-        <Title data-aos="fade-up">안녕하세요</Title>
+        <Title data-aos="fade-up">안녕하세요 자매님,,</Title>
       </Divider>
       <Image data-aos="fade-up" src={Flower} />
       <Content data-aos="fade-up">
-        지내온 시간이 많지 않아 서로를 아직 잘 모르지만,
+        음,, 우선 간단히 제 소개를 먼저 할게요..ㅎㅎ
         <br />
         <br />
-        시간이 달라서 서로가 다른 점들이 있지만,
+        저는 김대건 형제라고 합니다.
         <br />
         <br />
-        앞으로의 우리의 시간은 더 많을 것이고 더 행복할 것임을 믿습니다.
+        한 형제님의 교통을 통해서 기도를 시작하게 됐고,
         <br />
         <br />
-        때로는 울고, 웃으며 사랑하는 가정이 되어서 함께 나아가요
+        지금까지 약 9개월 동안의 생활이 쉽지는 않았지만, 이 기도를 통해서 제가 보호되고 자라게 되었다는 것은,
         <br />
         <br />
-        <span style={{"font-weight":"bold" , color : "red" }}>사랑해 솔이야 </span>
+        하나님 앞에서 정말 부끄러움이 없습니다.
+        <br />
+        <br />
+        제게 주어진 희미한 느낌을 붙잡으면서 계속 기도하였을 때, 주님께서 정말 분명히 말씀하셨습니다.
+        <br />
+        <br />
+        <span style={{"font-weight":"bold" , color : "red" }}>"내가 너를 위해서 안배한 사람이다." </span>
+        <br />
+        <br />
+        그리고 자매님을 처음 만나고 지금까지 정말 주님께 감사하고 있습니다.
+        <br />
+        <br />
+        자매님 제게 와줘서 감사해요
       </Content>
     </Wrapper>
   );

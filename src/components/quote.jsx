@@ -48,10 +48,8 @@ const Quote = () => {
         때로는 울고, 웃으며 사랑하는 가정이 되어서 함께 나아가요
         <br />
         <br />
-        <br />
         <span style={{"font-weight":"bold" , color : "red" }}>사랑해 솔이야 </span>
         <br />
-        <span style={{"font-weight":"italic" , color : "gray" }}>건이가 </span>
         
       </Content>
     </Wrapper>
