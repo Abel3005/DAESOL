@@ -32,8 +32,28 @@ const Title = styled.p`
 
 const images = [
   {
-    original: GalleryPhoto1,
-    thumbnail: GalleryPhoto1,
+    original: GalleryPhoto10,
+    thumbnail: GalleryPhoto10,
+  },
+  {
+    original: GalleryPhoto9,
+    thumbnail: GalleryPhoto9,
+  },
+  {
+    original: GalleryPhoto8,
+    thumbnail: GalleryPhoto8,
+  },
+  {
+    original: GalleryPhoto7,
+    thumbnail: GalleryPhoto7,
+  },
+  {
+    original: GalleryPhoto6,
+    thumbnail: GalleryPhoto6,
+  },
+  {
+    original: GalleryPhoto5,
+    thumbnail: GalleryPhoto5,
   },
   {
     original: GalleryPhoto2,
@@ -44,32 +64,8 @@ const images = [
     thumbnail: GalleryPhoto3,
   },
   {
-    original: GalleryPhoto4,
-    thumbnail: GalleryPhoto4,
-  },
-  {
-    original: GalleryPhoto5,
-    thumbnail: GalleryPhoto5,
-  },
-  {
-    original: GalleryPhoto6,
-    thumbnail: GalleryPhoto6,
-  },
-  {
-    original: GalleryPhoto7,
-    thumbnail: GalleryPhoto7,
-  },
-  {
-    original: GalleryPhoto8,
-    thumbnail: GalleryPhoto8,
-  },
-  {
-    original: GalleryPhoto9,
-    thumbnail: GalleryPhoto9,
-  },
-  {
-    original: GalleryPhoto10,
-    thumbnail: GalleryPhoto10,
+    original: GalleryPhoto1,
+    thumbnail: GalleryPhoto1,
   },
 ];
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import styled from "styled-components";
 import {
   WEDDING_DATE,
@@ -27,9 +27,31 @@ const TitleWrapper = styled.div`
   -o-animation: fadein 3s; /* Opera */
 `;
 
-const VideoBackground = styled.video`
+const StyledVideo = styled.video`
   width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 `;
+
+const VideoPlayer = ({ src }) => {
+  const [shouldAutoplay, setShouldAutoplay] = useState(false);
+
+  useEffect(() => {
+    const hasPlayed = sessionStorage.getItem('videoPlayed');
+    if (!hasPlayed) {
+      setShouldAutoplay(true);
+      sessionStorage.setItem('videoPlayed', true);
+    }
+  }, []);
+
+  return (
+    <StyledVideo controls autoPlay={shouldAutoplay}>
+      <source src={src} type="video/mp4" />
+      Your browser does not support the video tag.
+    </StyledVideo>
+  );
+};
 
 const WeddingInvitation = styled.p`
   font-size: 0.825rem;
@@ -63,9 +85,7 @@ const Title = () => {
           {WEDDING_LOCATION}
         </Schedule>
       </TitleWrapper>
-      <VideoBackground autoPlay loop muted playsInline={true}>
-        <source src={BackgroundVideo} type="video/mp4" />
-      </VideoBackground>
+      <VideoPlayer src={BackgroundVideo} />
     </Layout>
   );
 };
