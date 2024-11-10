@@ -55,6 +55,8 @@ const IndexPage = () => {
       <Gallery />
       <Location />
       <Quote />
+      <CongratulatoryMoney />
+      <Share />
       <Footer
         style={{
           background: "#D7CCC8",

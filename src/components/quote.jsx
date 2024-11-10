@@ -50,6 +50,8 @@ const Quote = () => {
         <br />
         <span style={{"font-weight":"bold" , color : "red" }}>사랑해 솔이야 </span>
         <br />
+        <br />
+        <br />
         
       </Content>
     </Wrapper>
