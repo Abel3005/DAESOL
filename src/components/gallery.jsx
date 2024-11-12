@@ -12,6 +12,11 @@ import GalleryPhoto7 from "../assets/SOR7.jpg";
 import GalleryPhoto8 from "../assets/SOR8.jpg";
 import GalleryPhoto9 from "../assets/SOR9.jpg";
 import GalleryPhoto10 from "../assets/SOR10.jpg";
+import GalleryPhoto11 from "../assets/SOR11.jpg";
+import GalleryPhoto12 from "../assets/SOR12.jpg";
+import GalleryPhoto13 from "../assets/SOR13.jpg";
+import GalleryPhoto14 from "../assets/SOR14.jpg";
+
 
 
 const Wrapper = styled.div`
@@ -30,6 +35,22 @@ const Title = styled.p`
 `;
 
 const images = [
+  {
+    original: GalleryPhoto11,
+    thumbnail: GalleryPhoto11,
+  },
+  {
+    original: GalleryPhoto12,
+    thumbnail: GalleryPhoto12,
+  },
+  {
+    original: GalleryPhoto13,
+    thumbnail: GalleryPhoto13,
+  },
+  {
+    original: GalleryPhoto14,
+    thumbnail: GalleryPhoto14,
+  },
   {
     original: GalleryPhoto10,
     thumbnail: GalleryPhoto10,
